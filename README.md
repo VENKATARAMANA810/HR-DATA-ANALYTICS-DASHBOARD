@@ -22,7 +22,7 @@ This project is a comprehensive HR data analysis dashboard built using **Power B
 - Years at company vs. job role
 
 ## Screenshots
-
+Screenshot 2024-09-08 111726.png
 
 
 ## How to Use
