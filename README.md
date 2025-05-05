@@ -1,25 +1,51 @@
-Project Analysis Outline
+# HR Analytics Dashboard – Power BI
 
-Understanding the workforce:
+This project is a comprehensive HR data analysis dashboard built using **Power BI**. It helps visualize key HR metrics such as attrition rate, job satisfaction, work-life balance, and performance scores, enabling data-driven decisions for HR departments.
 
-•Job distribution: Determine the number of employees in each job category.
+## Overview
 
-•Gender diversity: Analyze the gender breakdown of the staff.
+- **Objective**: Analyze employee data to understand factors affecting attrition and overall workforce engagement.
+- **Tools Used**: Power BI, Power Query, DAX, Excel
+- **Key Features**:
+  - Interactive visuals with slicers and filters
+  - KPI cards for quick metric tracking
+  - Row-Level Security (RLS) implementation
+  - Drill-through pages for detailed insights
 
-•Age demographics: Assess the age distribution of the employees.
+## Key Metrics Analyzed
 
-Compensation analysis:
+- Attrition rate by department, age, gender, and education
+- Job satisfaction levels
+- Monthly income distribution
+- Overtime analysis
+- Performance rating comparison
+- Years at company vs. job role
 
-•Job-based pay: Compare salaries across different job roles.
+## Screenshots
 
-•Top earners: Identify the highest-paid individuals in each job category.
 
-•Qualification vs. salary: Evaluate the relationship between educational qualifications and salary levels.
 
-Staff dynamics:
+## How to Use
 
-•Growth trends: Track changes in the number of employees over time.
+1. Download the `.pbix` file from the repository.
+2. Open it in Power BI Desktop.
+3. Explore the dashboard using filters and slicers.
+4. Modify the dataset or visuals as needed for custom analysis.
 
-•Employee filtering: Allow for searching employees based on the starting letter of their name.
+## Dataset
 
-•Leave management: Analyze the leave balances of employees.
+The dataset is sourced from an open HR dataset available on [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset) and includes 35+ features for ~1,500 employees.
+
+## Learnings
+
+- Built dynamic dashboards using Power BI visuals and slicers
+- Applied DAX measures to calculate attrition rate, average income, etc.
+- Implemented Power Query transformations for data cleaning
+- Used RLS to restrict data view by department
+
+## Contact
+
+If you have any questions or feedback, feel free to connect on [LinkedIn](https://www.linkedin.com/in/svramana1/) or open an issue in this repo.
+
+---
+
